@@ -35,7 +35,7 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="gemma3:cloud",
+    model="gemma3:1b",
     messages=messages
 )
 
